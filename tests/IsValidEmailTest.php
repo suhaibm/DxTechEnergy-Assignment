@@ -14,7 +14,7 @@ class IsValidEmailTest extends TestCase
     public function it_returns_true_for_valid_email_format($email)
     {
         $this->assertTrue(
-            \Assignment\Src\Methods\isValidEmail($email)
+            \Assignment\Src\Helpers\Methods\isValidEmail($email)
         );
     }
 
@@ -25,7 +25,7 @@ class IsValidEmailTest extends TestCase
     public function it_returns_false_for_invalid_email_format($email)
     {
         $this->assertFalse(
-            \Assignment\Src\Methods\isValidEmail($email)
+            \Assignment\Src\Helpers\Methods\isValidEmail($email)
         );
     }
 

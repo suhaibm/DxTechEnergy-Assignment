@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     'ec07570ca5a812141189b1fa81503674' => $vendorDir . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
-    '9d5358faf524ab125a6326a5fa8287d3' => $baseDir . '/src/methods.php',
+    'e395a4b460332a7ad5b366c85f173102' => $baseDir . '/src/helpers/methods.php',
 );

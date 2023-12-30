@@ -8,7 +8,7 @@
             "Assignment\\Src\\": "src/"
         },
         "files": [
-            "src/methods.php"
+            "src/helpers/methods.php"
         ]
     },
     "authors": [
