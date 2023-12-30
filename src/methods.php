@@ -18,3 +18,19 @@ function isValidEmail(string $email): bool
     // the php built in mehtod for checking the email validation.
     // return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
+
+/**
+ * It checks for a missing number in a consecutive series of numbers, both in assending or decending order.
+ * 
+ * @param array $numbers An array of consecutive numbers.
+ * @return int The missing number.
+ */
+function findMissingNumber(array $numbers): int
+{
+    $rangeArr = range($numbers[0], end($numbers));
+
+    return current(
+        array_diff($rangeArr, $numbers)
+    );
+}
+
