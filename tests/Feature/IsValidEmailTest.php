@@ -1,9 +1,8 @@
 <?php
 
-namespace Assignment\Tests\IsValidEmailTest;
+namespace Tests\Feature;
 
 use PHPUnit\Framework\TestCase;
-
 
 class IsValidEmailTest extends TestCase
 {
@@ -14,7 +13,7 @@ class IsValidEmailTest extends TestCase
     public function it_returns_true_for_valid_email_format($email)
     {
         $this->assertTrue(
-            \Assignment\Src\Helpers\Methods\isValidEmail($email)
+            \Src\Helpers\isValidEmail($email)
         );
     }
 
@@ -25,7 +24,7 @@ class IsValidEmailTest extends TestCase
     public function it_returns_false_for_invalid_email_format($email)
     {
         $this->assertFalse(
-            \Assignment\Src\Helpers\Methods\isValidEmail($email)
+            \Src\Helpers\isValidEmail($email)
         );
     }
 

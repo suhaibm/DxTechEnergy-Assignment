@@ -1,9 +1,8 @@
 <?php
 
-namespace Assignment\Tests\FindMissingNumberTest;
+namespace Tests\Feature;
 
 use PHPUnit\Framework\TestCase;
-
 
 class FindMissingNumberTest extends TestCase
 {
@@ -14,7 +13,7 @@ class FindMissingNumberTest extends TestCase
     public function it_returns_true_for_valid_email_format($inputArray, $result)
     {
         $this->assertEquals($result,
-            \Assignment\Src\Helpers\Methods\findMissingNumber($inputArray)
+        \Src\Helpers\findMissingNumber($inputArray)
         );
     }
 
