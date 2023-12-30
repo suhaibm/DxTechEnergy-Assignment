@@ -5,11 +5,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Assignment\\Src\\": "src/"
+            "Src\\": "src/"
         },
         "files": [
             "src/helpers/methods.php"
         ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     },
     "authors": [
         {

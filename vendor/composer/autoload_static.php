@@ -13,6 +13,14 @@ class ComposerStaticInit8f6bfd29c0b6b176d41f8f0e158a4465
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Tests\\' => 6,
+        ),
+        'S' => 
+        array (
+            'Src\\' => 4,
+        ),
         'P' => 
         array (
             'PhpParser\\' => 10,
@@ -21,13 +29,17 @@ class ComposerStaticInit8f6bfd29c0b6b176d41f8f0e158a4465
         array (
             'DeepCopy\\' => 9,
         ),
-        'A' => 
-        array (
-            'Assignment\\Src\\' => 15,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'Src\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
@@ -35,10 +47,6 @@ class ComposerStaticInit8f6bfd29c0b6b176d41f8f0e158a4465
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'Assignment\\Src\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

@@ -3,4 +3,4 @@
 require "helpers/methods.php";
 
 
-echo \Assignment\Src\Helpers\Methods\findMissingNumber([1,2,4,5]);
+echo \Src\Helpers\findMissingNumber([1,2,4,5]);
