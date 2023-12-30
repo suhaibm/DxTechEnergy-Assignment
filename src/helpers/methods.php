@@ -1,6 +1,6 @@
 <?php
 
-namespace Assignment\Src\Helpers\Methods;
+namespace Src\Helpers;
 
 /**
  * Checks is the email format is valid. It was done in 2 ways, one using a php built in method
