@@ -1,0 +1,21 @@
+{
+    "name": "suhib/assignment",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Assignment\\Src\\": "src/"
+        },
+        "files": [
+            "src/methods.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Suhib Mourshid",
+            "email": "Suhib.Mourshid@gmail.com"
+        }
+    ],
+    "require": {}
+}
