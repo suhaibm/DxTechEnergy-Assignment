@@ -13,7 +13,7 @@ class FindMissingNumberTest extends TestCase
     public function it_returns_true_for_valid_email_format($inputArray, $result)
     {
         $this->assertEquals($result,
-        \Src\Helpers\findMissingNumber($inputArray)
+            \Src\Helpers\findMissingNumber($inputArray)
         );
     }
 
