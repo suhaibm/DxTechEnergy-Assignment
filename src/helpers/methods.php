@@ -36,13 +36,16 @@ function findMissingNumber(array $numbers): int
 
 /**
  * Calculates the memory usage before and after performing on an array, and return the difference.
+ * The array is pased by reference assuming it is a large array as specified by the question.
  * 
- * @param array $arr An array to operate on.
+ * @param array $arr An array passed by reference to operate on.
  * @return int The difference in memory usage before and after the operation.
  */
-function calculateMemoryUsage(array $arr):int
+function calculateMemoryUsage(array &$arr):int
 {
     $before = memory_get_usage() . "\n";
+
+    shuffle($arr);
 
     rsort($arr);
 
